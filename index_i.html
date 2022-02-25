@@ -4,36 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de Descuentos</title>
+    <title>Discounts Calculator</title>
     <link rel="shortcut icon" href="icon.jpg">
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
     <header>
         <div< class="header">
-      <h1>  Calculadora de Descuentos</h1>
-        <button  type="button" id="idioma" onclick="changeLanguage">English Version</button>
+      <h1> Discounts Calculator</h1>
+        <button  type="button" id="castellano" onclick="cambioIdioma()">Versión en Español</button>
     </div>
     </header>
     <main class="main">
         <section class="section1"> 
-            <h2>¿Cuál es el descuento que te ofrecen?</h2>
-            <h3>¿Te ofrecen un descuento por un producto? Comprobá cuánto vas a pagar!</h3>
+            <h2> ¿How much is the discount they offer you?</h2>
+            <h3>Check the final price!</h3>
             <form>    
-            <label for="inputPrecio">Escriba el precio sin descuento:</label>
+            <label for="inputPrecio">Write the original price, without the discount:</label>
             <br/>
             <input type="number" id="inputPrecio"/>
             <br/>
-            <label for="inputPrecio">Escriba el descuento ofrecido:</label>
+            <label for="inputPrecio">Write the offered discount:</label>
             <br/>
             <input type="number" id="inputDescuento"/>
             <br/>
-            <button type="button" id="button" onclick="calcularPrecioConDescuento()">Ver el precio con descuento</button>
+            <button type="button" id="button" onclick="calculateDiscount()">Check final price with the applied discount</button>
             </form>
             <p id="frase"></p>
         </section>
         <footer>
-            <p>Código realizado por: Helena des Troy. Podés ver otros repositorios de Helena <a style="color: pink" href="https://github.com/HelenaDestroy?tab=repositories"> acá</a>.</p>
+            <p>Coded by: Helena des Troy. You can see another repositories of Helena <a style="color: pink" href="https://github.com/HelenaDestroy?tab=repositories"> here</a>.</p>
         </footer>
         <script src="script.js"></script>
     </body> 

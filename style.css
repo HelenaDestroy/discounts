@@ -1,51 +1,74 @@
 *{box-sizing: border-box;}
-html{font-size: 62,5%;}
+html{
+    font-size: 62,5%;background-image: url(background.jpg);background-repeat: no-repeat;
+background-size: cover;
+}
 
 body {
-background-image: url(background.jpg);
+    width: 100%;
+    height: 100%;
 font-family: sans-serif;
-color: slategrey;
-background-repeat: no-repeat;
-background-size: cover;}
+color: rgb(170, 169, 169);
+}
 .header{
-    display: flex;
     height:15vh;
     width: 100vw;
-   align-items: center;
-   background-color: antiquewhite;}
-
+    display: flex;
+    }
 .header > h1 { 
-    background-color: aquamarine;
-    width: 50%;
-    height: 100%
-    
+    width: 90%;
+    height: 90%;
+    position: center;
+    text-align: center; 
 }
 .header > button {
-    margin-left: 800px;
-        background-color: yellow;
     height: 40px;
-    width: 120px;
-    box-shadow: 4px;
+    width: 100px;
+    box-shadow: 10px 5px 5px black;;
     font-weight: bold;
+    margin-top: 25%;
     background-color: blueviolet;
-
-
 }
+
+section > p {
+    font-weight: bold;
+    color: white; 
+    border-color: white;
+    border-style: double;
+    border-radius: 4px;
+    text-align: center;
+    margin: 4px 4px 4px 4px;
+    width: fit-content;
+    height: fit-content;
+}
+
+section {
+    width: 100%;
+height: 100%;
+text-align: center;}
+
 main{
     height: 69vh;
-    width: 100vw;
+    width: 100%;
+}
+label {margin-top: 10px;}
+input {
+    width: 130px;
+    height: 40px;
+    border-style: line;
+    border-width: 5px;
+    color:rgb(170, 169, 169);
+    margin-top: 10px;
 }
 footer {
     border-top: 2px;
     border-top-style: double;
     display: flex;
-    height: 15vh;
-    width: 100vw;
     width: 100%;
-    height: 10vh;
+    height: 9vh;
     font-weight: bold;
-    font-size: 1.6rem; }
-    .p1 {margin-left: 600px;}
-
-    
-
+    font-size: 0.9rem; }
+    .p1 {margin-left: 600px;
+        color:rgb(170, 169, 169);
+     }
+     a:hover{color: yellow;} 
