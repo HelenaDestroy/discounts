@@ -7,13 +7,13 @@ const cambio = document.getElementById("idioma");
 idioma.addEventListener("click", changeLanguage);
 
 function changeLanguage()
-{ return window.open(["index_i.html"],["Discount Calculator. English version"]);
+{ return window.location(["index_i.html"],["Discount Calculator. English version"]);
       }
       
 //volver a castellano
 const cambia = document.getElementById("castellano");
 castellano.addEventListener("click", cambioIdioma);
-function cambioIdioma() { return window.open(["index.html"],["Calculador de Descuentos. Versión en Español"]);
+function cambioIdioma() { return window.location(["index.html"],["Calculador de Descuentos. Versión en Español"]);
 }
 
 function calcularPrecioConDescuento(){
