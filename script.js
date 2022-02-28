@@ -7,13 +7,13 @@ const cambio = document.getElementById("idioma");
 idioma.addEventListener("click", changeLanguage);
 
 function changeLanguage()
-{ return window.location(["index_i.html"],["Version"]);
+{ return window.open(["index_i.html"],["Version"]);
       }
       
 //volver a castellano
 const cambia = document.getElementById("castellano");
 castellano.addEventListener("click", cambioIdioma);
-function cambioIdioma() { return window.location(["index.html"],["Version"]);
+function cambioIdioma() { return window.open(["index.html"],["Version"]);
 }
 
 function calcularPrecioConDescuento(){
